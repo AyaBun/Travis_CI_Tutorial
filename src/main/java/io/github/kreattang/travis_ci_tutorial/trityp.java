@@ -58,6 +58,7 @@ class trityp
 
         triOut = 0;
         if (Side1 == Side2)
+        triOut = triOut + 1;
         triOut = triOut + 2;
         if (Side1 == Side3)
             triOut = triOut + 2;
